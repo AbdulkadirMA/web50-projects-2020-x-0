@@ -1,0 +1,53 @@
+$color:#00c2ff;
+
+
+
+
+
+/*nasted*/ 
+section{
+    h2{
+       color: $color; 
+    }
+}
+/*inheritant*/
+
+.sub{
+  color: #000000;
+  
+
+
+}
+.subhead{
+    @extend .sub;
+    
+    
+}
+
+.about{
+  width: 600px;
+  height: 250;
+  padding-top: .8em;
+  padding-bottom: 5em;
+}
+.title{
+  padding-top: 1em;
+  text-align: left;
+}
+.discribtion{
+  font-size: 1em;
+  text-align: left;
+}
+
+.cbt{
+  width: calc(100% - 10em);
+  display: block;
+  border-radius: 20px;
+  padding: .5em;
+  text-decoration: none;
+  background: #00cc80;
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  
+}
